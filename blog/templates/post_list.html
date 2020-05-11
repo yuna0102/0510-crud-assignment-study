@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+{% for post in posts %}
+<div class="contatiner">
+    <h3> Title : {{blog.title}}</h3>
+    <h4> Content : {{blog.content}}</h4>
+</div>
+
+{% endfor %}
+
+
+{% endblock %}

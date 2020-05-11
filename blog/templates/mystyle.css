@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+.nav-contatiner {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* 쓸데없는 공백 제거 */
+    background-color: darkslategrey;
+    list-style-type: none;
+    /* 목록 기호 제거 */
+}
+
+.nav-item {
+    padding: 15px;
+    cursor: pointer;
+    /* 마우스 커서를 pointer 모양으로 함 */
+}
+
+.nav-item a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
